@@ -1,3 +1,4 @@
+import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import BlogIndex from './pages/BlogIndex';
@@ -6,7 +7,6 @@ import Login from './pages/Login';
 import Admin from './pages/Admin';
 import ProtectedRouted from './components/ProtectedRoute';
 import './App.css'
-import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (

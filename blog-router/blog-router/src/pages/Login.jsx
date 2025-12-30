@@ -9,6 +9,15 @@ function Login() {
     login();
     navigate('/');
   };
+  
+  if  (isAuthenticated) {
+    return (
+      <div style={{padding: '20px'}}>
+        <h1>You are logged in.</h1>
+      </div>
+    );
+  }
+  
   return (
     <div style={{ padding: '20px' }}>
       <h1>Login</h1>

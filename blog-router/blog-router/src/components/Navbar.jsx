@@ -8,11 +8,15 @@ function Navbar() {
     <nav style={{ 
       padding: '20px', 
       backgroundColor: '#333', 
-      color: 'white',
+      color: 'white'
+      }}>
+    <div style={{
+      maxWidth: '900px',
+      margin: '0 auto',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center'
-    }}>
+     }}>
       <div>
         <Link to="/" style={{ color: 'white', textDecoration: 'none', marginRight: '20px' }}>
           Home
@@ -38,7 +42,8 @@ function Navbar() {
           </Link>
         )}
       </div>
-    </nav>
+    </div>
+  </nav>
   );
 }
 

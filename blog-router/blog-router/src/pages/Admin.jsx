@@ -3,7 +3,7 @@ function Admin() {
     <div style={{ padding: '20px' }}>
       <h1>You are in the Admin Dashboard</h1>
       <p>Authenticated users only.</p>
-      <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#f0f0f0', borderRadius: '5px' }}>
+      <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#958f8fff', borderRadius: '5px' }}>
         <h2>Admin Features</h2>
         <ul>
           <li>Manage blog posts</li>
